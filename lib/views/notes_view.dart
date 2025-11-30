@@ -8,6 +8,12 @@ class NotesView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold
     (
+      floatingActionButton: FloatingActionButton
+      (
+        onPressed: (){},
+        shape: CircleBorder(),
+        child: Icon(Icons.add),
+      ),
       body: const NotesViewBody(),
     );
   }
